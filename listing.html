@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Real Vault</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Amaranth:700i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300i" rel="stylesheet">
+	<link rel="stylesheet" href="./assets/css/normalize.css">
+	<link rel="stylesheet" href="./assets/css/style2.css">
+</head>
+
+<body>
+	<div class="header">
+		<a href="#" class="logo">
+			<img src="./assets/images/logo.png" alt="Logo" width="32" height="32">
+		</a>
+		<h1>RealVault</h1>
+	</div>
+	<div class="container">
+		<h2>List your properties here</h2>
+		<p class="para1">Access a global pool of investors, making it easier to raise capital for real estate projects. Tokenize your assets, unlocking liquidity and enabling fractional ownership, thereby increasing the attractiveness of your properties to investors.
+		</p>
+		<div class="border-up"></div>
+		<div class="border-down"></div>
+		<form action="index.html" method="post">
+			<fieldset>
+				<legend class="contact">Property Info</legend>
+				<div class="row">
+					<label for="Country">Property Type</label>
+					<div class="tf">
+						<select id="state"><br><br />
+							<option value="" disabled selected class="dis">Choose Real Estate type</option>
+							<option value="RP">Residential Property</option>
+							<option value="CP">Commercial Property</option>
+							<option value="IP">Industrial Property</option>
+							<option value="SP">Specialized Property</option>
+							<option value="Other">Other</option>
+						</select>
+					</div>
+				</div>
+				<div class="row">
+					<label for="name">Property Name</label>
+					<div class="tf">
+						<input type="text" id="name" name="user_name" required><br />
+					</div>
+				</div>
+				<div class="row">
+					<label for="email">Owner Name</label>
+					<div class="tf">
+						<input type="email" id="email" name="user_mail" required><br />
+					</div>
+				</div>
+				<div class="row">
+					<label for="number">Phone Number</label>
+					<div class="tf">
+						<input type="tel" id="number" name="user_number"><br />
+					</div>
+				</div>
+				<div class="row">
+					<label for="address">Location</label>
+					<div class="tf">
+						<input type="text" id="address" name="user_address"><br />
+					</div>
+				</div>
+				<div class="row">
+					<label for="address">Description</label>
+					<div class="tf">
+						<input type="text" id="address" name="user_address"><br />
+					</div>
+				</div>
+				<div class="row">
+					<label for="city">City</label>
+					<div class="tf">
+						<input type="text" id="city" name="user_city"><br />
+					</div>
+				</div>
+				<div class="row">
+					<label for="Country">Country</label>
+					<div class="tf">
+						<select id="state"><br><br />
+							<option value="" disabled selected class="dis">Country Pool</option>
+							<option value="UAE">UAE</option>
+							<option value="HK">Hong Kong</option>
+							<option value="USA">United States of America</option>
+							<option value="MX">Mexico</option>
+							<option value="DE">Germany</option>
+							<option value="IN">India</option>
+							<option value="Other">Other</option>
+						</select>
+					</div>
+				</div>
+				<div class="row">
+					<label for="zip">Zip Code</label><br><br />
+					<div class="tf">
+						<input type="number" id="zip" name="zip_code"><br><br />
+					</div>
+				</div>
+				<div class="row">
+					<label for="address">Investment Terms</label>
+					<div class="tf">
+						<input type="text" id="address" name="user_address"><br />
+					</div>
+				</div>
+			</fieldset>
+			<div class="border_3"></div>
+			<button type="submit" class="authenticate-btn">Authenticate</button>
+		</form>
+		<a href="index.html" class="link-to-index">Go to Homepage</a>
+		<p class="footer">&copy; Copyright RealVault</p>
+	</div>
+</body>
+
+</html>
